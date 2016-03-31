@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		496878E31CA0C6850036C3A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496878E21CA0C6850036C3A3 /* AppDelegate.swift */; };
+		496878E81CA0C6850036C3A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496878E61CA0C6850036C3A3 /* Main.storyboard */; };
+		496878EA1CA0C6850036C3A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496878E91CA0C6850036C3A3 /* Assets.xcassets */; };
+		496878ED1CA0C6850036C3A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496878EB1CA0C6850036C3A3 /* LaunchScreen.storyboard */; };
+		496878F71CA1098A0036C3A3 /* AddNewAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496878F61CA1098A0036C3A3 /* AddNewAccountViewController.swift */; };
+		496878F91CA1198B0036C3A3 /* AccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496878F81CA1198B0036C3A3 /* AccountTableViewCell.swift */; };
+		496878FF1CA216730036C3A3 /* AccountsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496878FE1CA216730036C3A3 /* AccountsTableViewController.swift */; };
+		496879011CA2170A0036C3A3 /* PaymentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496879001CA2170A0036C3A3 /* PaymentsTableViewController.swift */; };
+		49F007AD1CA25D6500DF0FD0 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F007AC1CA25D6500DF0FD0 /* libsqlite3.tbd */; };
+		49F7A3CE1CADA94B00448BCA /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F7A3C51CADA94B00448BCA /* FMDatabase.m */; };
+		49F7A3CF1CADA94B00448BCA /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F7A3C71CADA94B00448BCA /* FMResultSet.m */; };
+		49F7A3D01CADA94B00448BCA /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F7A3C91CADA94B00448BCA /* FMDatabaseQueue.m */; };
+		49F7A3D11CADA94B00448BCA /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F7A3CB1CADA94B00448BCA /* FMDatabaseAdditions.m */; };
+		49F7A3D21CADA94B00448BCA /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F7A3CD1CADA94B00448BCA /* FMDatabasePool.m */; };
+		49F7A3D51CADA9E400448BCA /* MyAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F7A3D31CADA9E400448BCA /* MyAccount.swift */; };
+		49F7A3D61CADA9E400448BCA /* MyPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F7A3D41CADA9E400448BCA /* MyPayment.swift */; };
+		49F7A3D81CADAA4100448BCA /* MyDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F7A3D71CADAA4100448BCA /* MyDB.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		496878DF1CA0C6850036C3A3 /* PaymentManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaymentManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		496878E21CA0C6850036C3A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		496878E71CA0C6850036C3A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		496878E91CA0C6850036C3A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		496878EC1CA0C6850036C3A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		496878EE1CA0C6850036C3A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496878F61CA1098A0036C3A3 /* AddNewAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewAccountViewController.swift; sourceTree = "<group>"; };
+		496878F81CA1198B0036C3A3 /* AccountTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountTableViewCell.swift; sourceTree = "<group>"; };
+		496878FE1CA216730036C3A3 /* AccountsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountsTableViewController.swift; sourceTree = "<group>"; };
+		496879001CA2170A0036C3A3 /* PaymentsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentsTableViewController.swift; sourceTree = "<group>"; };
+		49F007AC1CA25D6500DF0FD0 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		49F007AE1CA25E5F00DF0FD0 /* PaymentManagement-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PaymentManagement-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		49F7A3C31CADA94B00448BCA /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		49F7A3C41CADA94B00448BCA /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		49F7A3C51CADA94B00448BCA /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		49F7A3C61CADA94B00448BCA /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		49F7A3C71CADA94B00448BCA /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		49F7A3C81CADA94B00448BCA /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		49F7A3C91CADA94B00448BCA /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		49F7A3CA1CADA94B00448BCA /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		49F7A3CB1CADA94B00448BCA /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		49F7A3CC1CADA94B00448BCA /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		49F7A3CD1CADA94B00448BCA /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		49F7A3D31CADA9E400448BCA /* MyAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAccount.swift; sourceTree = "<group>"; };
+		49F7A3D41CADA9E400448BCA /* MyPayment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPayment.swift; sourceTree = "<group>"; };
+		49F7A3D71CADAA4100448BCA /* MyDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDB.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		496878DC1CA0C6850036C3A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F007AD1CA25D6500DF0FD0 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49132B511CA9B4A4006B0CBF /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				49F7A3C31CADA94B00448BCA /* FMDB.h */,
+				49F7A3C41CADA94B00448BCA /* FMDatabase.h */,
+				49F7A3C51CADA94B00448BCA /* FMDatabase.m */,
+				49F7A3C61CADA94B00448BCA /* FMResultSet.h */,
+				49F7A3C71CADA94B00448BCA /* FMResultSet.m */,
+				49F7A3C81CADA94B00448BCA /* FMDatabaseQueue.h */,
+				49F7A3C91CADA94B00448BCA /* FMDatabaseQueue.m */,
+				49F7A3CA1CADA94B00448BCA /* FMDatabaseAdditions.h */,
+				49F7A3CB1CADA94B00448BCA /* FMDatabaseAdditions.m */,
+				49F7A3CC1CADA94B00448BCA /* FMDatabasePool.h */,
+				49F7A3CD1CADA94B00448BCA /* FMDatabasePool.m */,
+				49F007AE1CA25E5F00DF0FD0 /* PaymentManagement-Bridging-Header.h */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
+		496878D61CA0C6850036C3A3 = {
+			isa = PBXGroup;
+			children = (
+				49F007AC1CA25D6500DF0FD0 /* libsqlite3.tbd */,
+				496878E11CA0C6850036C3A3 /* PaymentManagement */,
+				496878E01CA0C6850036C3A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		496878E01CA0C6850036C3A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				496878DF1CA0C6850036C3A3 /* PaymentManagement.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		496878E11CA0C6850036C3A3 /* PaymentManagement */ = {
+			isa = PBXGroup;
+			children = (
+				496878E21CA0C6850036C3A3 /* AppDelegate.swift */,
+				496878E61CA0C6850036C3A3 /* Main.storyboard */,
+				496878F81CA1198B0036C3A3 /* AccountTableViewCell.swift */,
+				496878F61CA1098A0036C3A3 /* AddNewAccountViewController.swift */,
+				496878FE1CA216730036C3A3 /* AccountsTableViewController.swift */,
+				49F7A3D71CADAA4100448BCA /* MyDB.swift */,
+				496879001CA2170A0036C3A3 /* PaymentsTableViewController.swift */,
+				49F7A3D31CADA9E400448BCA /* MyAccount.swift */,
+				49F7A3D41CADA9E400448BCA /* MyPayment.swift */,
+				496878E91CA0C6850036C3A3 /* Assets.xcassets */,
+				496878EB1CA0C6850036C3A3 /* LaunchScreen.storyboard */,
+				496878EE1CA0C6850036C3A3 /* Info.plist */,
+				49132B511CA9B4A4006B0CBF /* FMDB */,
+			);
+			path = PaymentManagement;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		496878DE1CA0C6850036C3A3 /* PaymentManagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 496878F11CA0C6850036C3A3 /* Build configuration list for PBXNativeTarget "PaymentManagement" */;
+			buildPhases = (
+				496878DB1CA0C6850036C3A3 /* Sources */,
+				496878DC1CA0C6850036C3A3 /* Frameworks */,
+				496878DD1CA0C6850036C3A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaymentManagement;
+			productName = PaymentManagement;
+			productReference = 496878DF1CA0C6850036C3A3 /* PaymentManagement.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		496878D71CA0C6850036C3A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = JuanChen;
+				TargetAttributes = {
+					496878DE1CA0C6850036C3A3 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 496878DA1CA0C6850036C3A3 /* Build configuration list for PBXProject "PaymentManagement" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 496878D61CA0C6850036C3A3;
+			productRefGroup = 496878E01CA0C6850036C3A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				496878DE1CA0C6850036C3A3 /* PaymentManagement */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		496878DD1CA0C6850036C3A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496878ED1CA0C6850036C3A3 /* LaunchScreen.storyboard in Resources */,
+				496878EA1CA0C6850036C3A3 /* Assets.xcassets in Resources */,
+				496878E81CA0C6850036C3A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		496878DB1CA0C6850036C3A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496878FF1CA216730036C3A3 /* AccountsTableViewController.swift in Sources */,
+				496878E31CA0C6850036C3A3 /* AppDelegate.swift in Sources */,
+				49F7A3D81CADAA4100448BCA /* MyDB.swift in Sources */,
+				49F7A3CE1CADA94B00448BCA /* FMDatabase.m in Sources */,
+				496878F91CA1198B0036C3A3 /* AccountTableViewCell.swift in Sources */,
+				49F7A3D21CADA94B00448BCA /* FMDatabasePool.m in Sources */,
+				496879011CA2170A0036C3A3 /* PaymentsTableViewController.swift in Sources */,
+				49F7A3CF1CADA94B00448BCA /* FMResultSet.m in Sources */,
+				496878F71CA1098A0036C3A3 /* AddNewAccountViewController.swift in Sources */,
+				49F7A3D51CADA9E400448BCA /* MyAccount.swift in Sources */,
+				49F7A3D01CADA94B00448BCA /* FMDatabaseQueue.m in Sources */,
+				49F7A3D61CADA9E400448BCA /* MyPayment.swift in Sources */,
+				49F7A3D11CADA94B00448BCA /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		496878E61CA0C6850036C3A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				496878E71CA0C6850036C3A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		496878EB1CA0C6850036C3A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				496878EC1CA0C6850036C3A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		496878EF1CA0C6850036C3A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		496878F01CA0C6850036C3A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		496878F21CA0C6850036C3A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = PaymentManagement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PaymentManagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PaymentManagement-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		496878F31CA0C6850036C3A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = PaymentManagement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PaymentManagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PaymentManagement-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		496878DA1CA0C6850036C3A3 /* Build configuration list for PBXProject "PaymentManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496878EF1CA0C6850036C3A3 /* Debug */,
+				496878F01CA0C6850036C3A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		496878F11CA0C6850036C3A3 /* Build configuration list for PBXNativeTarget "PaymentManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496878F21CA0C6850036C3A3 /* Debug */,
+				496878F31CA0C6850036C3A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 496878D71CA0C6850036C3A3 /* Project object */;
+}

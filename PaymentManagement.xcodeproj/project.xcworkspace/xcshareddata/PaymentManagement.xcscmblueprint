@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "017AADFD6F2F6B931B92E986F213E6984DEDD443",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "04101981B66E318109934C9516F88D824BB96459" : 0,
+    "DDA2F82B0E759D9275441D6D502874EAB22433C9" : 0,
+    "017AADFD6F2F6B931B92E986F213E6984DEDD443" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3392AE47-27C9-48A7-996A-20E7CB788175",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "04101981B66E318109934C9516F88D824BB96459" : "fmdb\/",
+    "DDA2F82B0E759D9275441D6D502874EAB22433C9" : "",
+    "017AADFD6F2F6B931B92E986F213E6984DEDD443" : "PaymentManager\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PaymentManagement",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PaymentManagement.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Juanchen\/PaymentManagementApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "017AADFD6F2F6B931B92E986F213E6984DEDD443"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ccgus\/fmdb.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "04101981B66E318109934C9516F88D824BB96459"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Juanchen\/test.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DDA2F82B0E759D9275441D6D502874EAB22433C9"
+    }
+  ]
+}
