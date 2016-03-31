@@ -13,7 +13,7 @@ var globalDB: MyDB?
 
 class MyDB {
     
-    var allMyAccounts = [MyAccount]()
+    static var allMyAccounts = [MyAccount]()
     static var allMyPayments = [MyPayment]()
     
     //database infomation
@@ -107,6 +107,34 @@ class MyDB {
     
     
     
+    func findAllAccountsFromDB(){
+        if testDB!.open() {
+            let querySQL = "SELECT * FROM " + MyDB.TABLE_ACCOUNTS
+            print(querySQL)
+            
+            let results: FMResultSet? = testDB?.executeQuery(querySQL, withArgumentsInArray: nil)
+            while results?.next() == true {
+                print("item exists")
+                let name = results?.stringForColumn(MyDB.COLUMN_ACCOUNT_NAME)!
+                let bank = results?.stringForColumn(MyDB.COLUMN_ACCOUNT_BANK)!
+                let statementday = results?.stringForColumn(MyDB.COLUMN_ACCOUNT_STATEMENT_DAY)!
+                let statementbalance = results?.stringForColumn(MyDB.COLUMN_ACCOUNT_STATEMENT_BALANCE)!
+                let apr = results?.stringForColumn(MyDB.COLUMN_ACCOUNT_APR)!
+                let dueday = results?.stringForColumn(MyDB.COLUMN_ACCOUNT_DUE_DAY)!
+                
+                let myaccount = MyAccount(name: name!, bank: bank!, dueday: dueday!, statementday: statementday!, remainingbalance: statementbalance!, apr: apr!)
+                print(myaccount?.ACCOUNT_NAME)
+                MyDB.allMyAccounts.append(myaccount!)
+                
+            }
+            print(MyDB.allMyAccounts.count)
+            
+        } else {
+            print("Error: \(testDB!.lastErrorMessage())")
+        }
+    }
+
+    
     
     //-----------------------------ACCOUNTS_TABLE OPERATIONS----------------------------//
     
@@ -141,12 +169,16 @@ class MyDB {
                 print("Error: \(testDB!.lastErrorMessage())")
             } else {
                 print("Item Added")
+                MyDB.allMyAccounts.removeAll()
+                findAllAccountsFromDB()
             }
         } else {
             print("Error: \(testDB!.lastErrorMessage())")
         }
 
     }
+    
+    
     
     
     

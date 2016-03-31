@@ -9,17 +9,18 @@
 import UIKit
 
 
-
 class AccountsTableViewController: UITableViewController {
     
+    @IBOutlet var accountsTableView: UITableView!
+    
+    override func viewDidAppear(animated: Bool) {
+        accountsTableView.reloadData()
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
     }
-    
-    
-    
     
     
     override func didReceiveMemoryWarning() {
@@ -37,29 +38,38 @@ class AccountsTableViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 5
+        
+        return MyDB.allMyAccounts.count+1
     }
     
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        
+        //print(MyDB.allMyAccounts.count)
+
         let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! AccountTableViewCell
+        print(MyDB.allMyAccounts.count)
+
         if(indexPath.row > 0){
-            /*
-            let account = accounts[indexPath.row-1]
-            cell.name.text = account.name
-            cell.bank.text = account.bank
-            cell.dueDay.text = account.dueday
-            cell.statementDay.text = account.statementday
-            cell.remainingBalance.text = String(account.remainingbalance)
-            cell.apr.text = String(account.apr)
-            cell.interestRate.text = String(account.remainingbalance * account.apr / 12.0)
-            */
+            
+            let account:MyAccount = MyDB.allMyAccounts[indexPath.row-1]
+            print(account.ACCOUNT_NAME)
+            cell.name.text = account.ACCOUNT_NAME
+            cell.bank.text = account.ACCOUNT_BANK
+            cell.dueDay.text = account.ACCOUNT_DUE_DAY
+            cell.statementDay.text = account.ACCOUNT_STATEMENT_DAY
+            cell.remainingBalance.text = account.ACCOUNT_STATEMENT_BALANCE
+            cell.apr.text = account.ACCOUNT_APR
+            cell.interestRate.text = "TBC"
+            
         } else {
             
         }
         
         return cell
     }
+    
+    
     
     
     /*

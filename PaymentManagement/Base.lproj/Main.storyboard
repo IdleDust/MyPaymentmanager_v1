@@ -126,6 +126,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="accountsTableView" destination="gt0-Sq-BjV" id="JPf-T9-fah"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JfL-Zh-r2e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -180,7 +183,7 @@
                                                             <constraint firstAttribute="height" constant="30" id="yIj-32-L9m"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
                                                         <variation key="default">
                                                             <mask key="constraints">
                                                                 <exclude reference="guN-O6-vc2"/>
@@ -221,7 +224,7 @@
                                                             <constraint firstAttribute="width" constant="250" id="qLD-Vw-chU"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
                                                         <variation key="default">
                                                             <mask key="constraints">
                                                                 <exclude reference="GIa-9P-p2F"/>
@@ -262,7 +265,7 @@
                                                             <constraint firstAttribute="height" constant="30" id="WMl-pX-STh"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numberPad"/>
                                                         <variation key="default">
                                                             <mask key="constraints">
                                                                 <exclude reference="DZD-Tv-YCw"/>
@@ -303,7 +306,7 @@
                                                             <constraint firstAttribute="width" constant="280" id="tH7-tc-BZS"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" spellCheckingType="no" keyboardType="numberPad"/>
                                                         <variation key="default">
                                                             <mask key="constraints">
                                                                 <exclude reference="pW0-BI-qyb"/>
@@ -344,7 +347,7 @@
                                                             <constraint firstAttribute="height" constant="30" id="gYP-0r-VZz"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numberPad"/>
                                                         <variation key="default">
                                                             <mask key="constraints">
                                                                 <exclude reference="UwR-H3-5eg"/>
@@ -385,7 +388,7 @@
                                                             <constraint firstAttribute="width" constant="250" id="i0E-E6-98H"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                                         <variation key="default">
                                                             <mask key="constraints">
                                                                 <exclude reference="89n-Wa-5hc"/>
