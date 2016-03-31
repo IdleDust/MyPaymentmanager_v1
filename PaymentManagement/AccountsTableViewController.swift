@@ -8,77 +8,15 @@
 
 import UIKit
 
-var databasePath = NSString()
-let testDB = FMDatabase(path: databasePath as String)
+
 
 class AccountsTableViewController: UITableViewController {
     
-    //var accounts = [Account]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
-//        let filemgr = NSFileManager.defaultManager()
-//        let dirPaths = filemgr.URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)
-//        
-//        databasePath = dirPaths[0].URLByAppendingPathComponent("management.db").path!
-//        print("--------------------------------")
-//        print(databasePath)
-//        
-//        if !filemgr.fileExistsAtPath(databasePath as String) {
-//            
-//            let testDB = FMDatabase(path: databasePath as String)
-//            
-//            if testDB == nil {
-//                print("Error: \(testDB.lastErrorMessage())")
-//            }
-//            
-//            if testDB.open() {
-//                
-//                print("testDB opened succeefully!")
-//                
-//                let TABLE_ACCOUNTS = "ACCOUNTS_TABLE"
-//                let COLUMN_ACCOUNT_NAME = "ACCOUNT_NAME"
-//                let COLUMN_ACCOUNT_BANK = "ACCOUNT_BANK"
-//                let COLUMN_ACCOUNT_STATEMENT_DAY = "ACCOUNT_STATEMENT_DAY"
-//                let COLUMN_ACCOUNT_DUE_DAY = "ACCOUNT_DUE_DAY"
-//                let COLUMN_ACCOUNT_STATEMENT_BALANCE = "ACCOUNT_STATEMENT_BALANCE"
-//                let COLUMN_ACCOUNT_APR = "ACCOUNT_APR"
-//                
-//                var createSQL = ""
-//                createSQL += "CREATE TABLE IF NOT EXISTS \(TABLE_ACCOUNTS) "
-//                createSQL += "(ID INTEGER PRIMARY KEY AUTOINCREMENT, "
-//                createSQL += "\(COLUMN_ACCOUNT_NAME) TEXT, "
-//                createSQL += "\(COLUMN_ACCOUNT_BANK) TEXT, "
-//                createSQL += "\(COLUMN_ACCOUNT_STATEMENT_DAY) TEXT, "
-//                createSQL += "\(COLUMN_ACCOUNT_DUE_DAY) TEXT, "
-//                createSQL += "\(COLUMN_ACCOUNT_STATEMENT_BALANCE) TEXT, "
-//                createSQL += "\(COLUMN_ACCOUNT_APR) TEXT)"
-//                print(createSQL)
-//                
-//                if !testDB.executeStatements(createSQL) {
-//                    print("Error: \(testDB.lastErrorMessage())")
-//                }
-//                testDB.close()
-//                
-//            } else {
-//                print("Error: \(testDB.lastErrorMessage())")
-//            }
-
-    
-
-    
-    
-    
-        /*
-        loadAccounts()
-        let account1 = Account(name: "Chase Freedom", bank: "Chase", dueday: "2016-4-20", statementday: "2016-3-30", remainingbalance: Float(234.00), apr: Float(0.18))!
-        let account2 = Account(name: "Chase Saphire", bank: "Chase", dueday: "2016-4-20", statementday: "2016-3-30", remainingbalance: Float(1200.00), apr: Float(0.23))!
-        let account3 = Account(name: "Double Cash", bank: "Citi", dueday: "2016-4-20", statementday: "2016-3-30", remainingbalance: Float(3009.00), apr: Float(0.13))!
-        accounts.append(account1)
-        accounts.append(account2)
-        accounts.append(account3)
-        */
     
     
     

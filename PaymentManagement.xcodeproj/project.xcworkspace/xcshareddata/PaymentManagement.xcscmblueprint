@@ -1,18 +1,20 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "017AADFD6F2F6B931B92E986F213E6984DEDD443",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F5A8CE7797D0814FCBA2014CD86954DE8AF432E3",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "04101981B66E318109934C9516F88D824BB96459" : 0,
+    "017AADFD6F2F6B931B92E986F213E6984DEDD443" : 0,
     "DDA2F82B0E759D9275441D6D502874EAB22433C9" : 0,
-    "017AADFD6F2F6B931B92E986F213E6984DEDD443" : 0
+    "04101981B66E318109934C9516F88D824BB96459" : 0,
+    "F5A8CE7797D0814FCBA2014CD86954DE8AF432E3" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3392AE47-27C9-48A7-996A-20E7CB788175",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "04101981B66E318109934C9516F88D824BB96459" : "fmdb\/",
+    "017AADFD6F2F6B931B92E986F213E6984DEDD443" : "PaymentManager\/",
     "DDA2F82B0E759D9275441D6D502874EAB22433C9" : "",
-    "017AADFD6F2F6B931B92E986F213E6984DEDD443" : "PaymentManager\/"
+    "04101981B66E318109934C9516F88D824BB96459" : "fmdb\/",
+    "F5A8CE7797D0814FCBA2014CD86954DE8AF432E3" : "MyPaymentmanager_v1\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "PaymentManagement",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -32,6 +34,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Juanchen\/test.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DDA2F82B0E759D9275441D6D502874EAB22433C9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Juanchen\/MyPaymentmanager_v1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F5A8CE7797D0814FCBA2014CD86954DE8AF432E3"
     }
   ]
 }

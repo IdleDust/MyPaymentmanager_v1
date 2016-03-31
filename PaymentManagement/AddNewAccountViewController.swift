@@ -19,7 +19,17 @@ class AddNewAccountViewController: UIViewController {
 
     @IBAction func addNewAccount(sender: AnyObject) {
     
-        
+        let namee = name.text!
+        let bankk = bank.text!
+        let statementdayy = statementday.text!
+        let duedayy = dueday.text!
+        let statementbalancee = statementbalance.text!
+        let aprr = apr.text!
+        if ((globalDB?.testDB) != nil) {
+            globalDB?.addNewAccount(namee, bank: bankk, statementday: statementdayy, dueday: duedayy, statementbalance: statementbalancee, apr: aprr)
+        } else {
+            print("Error with addNewAccount")
+        }
     
     }
     override func viewDidLoad() {
@@ -43,5 +53,7 @@ class AddNewAccountViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    
 
 }
